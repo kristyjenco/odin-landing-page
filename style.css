@@ -18,6 +18,10 @@ a {
     color: white;
 }
 
+a:hover {
+    font-weight: bold;
+}
+
 .header {
     color: white;
     background-color: #1F2937;
@@ -36,6 +40,7 @@ a {
     color: white;
     background-color: #1F2937;
     margin: 0;
+    padding: 50px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -48,29 +53,78 @@ h1 {
 }
 
 .awesome-text {
-    width: 600px;
+    width: 550px;
 }
 
-.img {
+.body-two {
     display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-wrap: wrap;
+    justify-content: center;   
+    align-items: center;       
+    gap: 16px;                 
+    flex-wrap: wrap;           
+    text-align: center;
+    margin: 50px; 
 }
 
 .img img {
     border-radius: 25px;
 }
 
+.img-text {
+    width: 150px;
+    text-align: center;
+}
+
 .body-three {
     background-color: #E5E7EB;
+    padding: 50px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color:#1F2937;
+}
+
+.author {
+    text-align: right;
 }
 
 .quote, .author {
     background-color: #E5E7EB;
 }
 
+.body-four {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px;
+    background-color: #3882F6;
+    color: white;
+    margin:100px;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid white;
+    padding: 16px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+    background-color: white;
+    color: #3882F6;
+    border-color: white;
+    font-weight: bold;
+}
+
 .footer {
     color: white;
     background-color: #1F2937;
+    text-align: center;
+    padding: 16px;
 }
+
